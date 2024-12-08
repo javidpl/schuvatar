@@ -45,29 +45,5 @@ $head_sliders.forEach(slider => {
   });
 });
 
-  
-
-// $h_width_top_sld.addEventListener('input', function() {
-//   const val = parseInt(this.value);
-//   polyhead.plot(path(val, 100, 100, $h_round_top_sld.value, $h_round_bottom_sld.value))
-//     .center(canvas_w / 2, canvas_h / 2);
-// });
-// $h_width_bottom_sld.addEventListener('input', function() {
-//   const val = parseInt(this.value);
-
-//   polyhead.plot(path($h_width_top_sld.value, 100, 100, $h_round_top_sld.value, $h_round_bottom_sld.value))
-//     .center(canvas_w / 2, canvas_h / 2);
-// });
-// $h_round_top_sld.addEventListener('input', function() {
-//   const val = parseInt(this.value);
-//   polyhead.plot(path($h_width_top_sld.value, 100, 100, val, $h_round_bottom_sld.value))
-//     .center(canvas_w / 2, canvas_h / 2);
-// });
-// $h_round_bottom_sld.addEventListener('input', function() {
-//   const val = parseInt(this.value);
-//   console.log(this.value);
-//   polyhead.plot(path($h_width_top_sld.value, 100, 100, $h_round_top_sld.value, val))
-//     .center(canvas_w / 2, canvas_h / 2);
-// });
 
 
