@@ -1,0 +1,70 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid deeppink;
+}
+
+.maker_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.selectors {
+  background-color: #333;
+  display: 	grid;
+  grid-template-columns: auto 1fr;
+}
+.bar {
+  background-color: #444;
+  padding: .5em;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.input_area {
+  display: flex;
+  flex-direction: column;
+  padding: .5em;
+  gap: 1.2em;
+}
+.canvas_wrap {
+  min-width: 500px;
+  min-height: 500px;
+  display: grid;
+  place-items: center;
+}
+
+.input_area label {
+  display: flex;
+  flex-direction: column;
+  gap: .2em;
+  justify-content: start;
+}
+.slider {
+  border: 1px solid red;
+}

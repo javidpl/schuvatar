@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schuvatar</title>
+  <script src="https://kit.fontawesome.com/23e3f0d3b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div id="app">
+    <div class="maker_grid">
+      <div class="selectors">
+        <div class="bar">
+          <i class="fa-solid fa-square"></i>
+          <i class="fa-solid fa-eye"></i>
+          <i class="fa-solid fa-play" style="rotate: 90deg"></i>
+        </div>
+        <div class="input_area">
+          <label for="h_width_top_sld">
+            <span>Head Width Top</span> 
+            <input type="range" id="h_width_top_sld" min="100" max="150" value="100" class="slider head_slider">
+          </label>
+          <label for="h_widthbottom_sld">
+            <span>Head Width Bottom</span> 
+            <input type="range" id="h_width_bottom_sld" min="100" max="150" value="100" class="slider head_slider">
+          </label>
+          <label for="h_round_top_sld">
+            <span>Head Round Top</span> 
+            <input type="range" id="h_round_top_sld" min="0" max="50" value="25" class="slider head_slider">
+          </label>
+          <label for="h_round_bottom_sld">
+            <span>Head Round Bottom</span>
+            <input type="range" id="h_round_bottom_sld" min="0" max="50" value="25" class="slider head_slider">
+          </label>
+        </div>
+      </div>
+      <div class="canvas_wrap">
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
